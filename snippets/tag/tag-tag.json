@@ -1,0 +1,22 @@
+{
+    "@tagList": {
+		"prefix": "@tag.tag.list",
+		"body": [
+            "<@tagTag method=\"list\">",
+            "\t<#list tags as tag>",
+            "\t\t$0",
+            "\t</#list>",
+			"</@tagTag>"
+		],
+		"description": "@tagList",
+		"scope": "text.html.ftl"
+	},
+    "@tagCount": {
+		"prefix": "@tag.tag.count",
+		"body": [
+            "<@tagTag method=\"count\">${count!0}</@tagTag>"
+		],
+		"description": "@tagCount",
+		"scope": "text.html.ftl"
+    }
+}

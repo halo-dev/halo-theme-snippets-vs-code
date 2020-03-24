@@ -1,0 +1,50 @@
+{
+    "$tagId": {
+		"prefix": "$tag.id",
+		"body": [
+            "${tag.id?c}"
+		],
+		"description": "$tagId",
+		"scope": "text.html.ftl"
+    },
+    "$tagName": {
+		"prefix": "$tag.name",
+		"body": [
+            "${tag.name!}"
+		],
+		"description": "$tagName",
+		"scope": "text.html.ftl"
+    },
+    "$tagSlug": {
+		"prefix": "$tag.slug",
+		"body": [
+            "${tag.slug!}"
+		],
+		"description": "$tagSlug",
+		"scope": "text.html.ftl"
+    },
+    "$tagThumbnail": {
+		"prefix": "$tag.thumbnail",
+		"body": [
+            "${tag.thumbnail!}"
+		],
+		"description": "$tagThumbnail",
+		"scope": "text.html.ftl"
+    },
+    "$tagCreateTime": {
+		"prefix": "$tag.createTime",
+		"body": [
+            "${tag.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$tagCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$tagUpdateTime": {
+		"prefix": "$tag.updateTime",
+		"body": [
+            "${tag.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$tagUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}

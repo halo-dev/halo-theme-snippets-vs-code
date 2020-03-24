@@ -1,0 +1,82 @@
+{
+    "$postId": {
+		"prefix": "$post.id",
+		"body": [
+            "${post.id?c}"
+		],
+		"description": "$postId",
+		"scope": "text.html.ftl"
+    },
+    "$postTitle": {
+		"prefix": "$post.title",
+		"body": [
+            "${post.title!}"
+		],
+		"description": "$postTitle",
+		"scope": "text.html.ftl"
+    },
+    "$postFormatContent": {
+		"prefix": "$post.formatContent",
+		"body": [
+            "${post.formatContent!}"
+		],
+		"description": "$postFormatContent",
+		"scope": "text.html.ftl"
+    },
+    "$postSummary": {
+		"prefix": "$post.summary",
+		"body": [
+            "${post.summary!}"
+		],
+		"description": "$postSummary",
+		"scope": "text.html.ftl"
+    },
+    "$postThumbnail": {
+		"prefix": "$post.thumbnail",
+		"body": [
+            "${post.thumbnail!}"
+		],
+		"description": "$postThumbnail",
+		"scope": "text.html.ftl"
+    },
+    "$postVisits": {
+		"prefix": "$post.visits",
+		"body": [
+            "${post.visits?c}"
+		],
+		"description": "$postVisits",
+		"scope": "text.html.ftl"
+    },
+    "$postLikes": {
+		"prefix": "$post.likes",
+		"body": [
+            "${post.likes?c}"
+		],
+		"description": "$postLikes",
+		"scope": "text.html.ftl"
+    },
+    "$postEditTime": {
+		"prefix": "$post.editTime",
+		"body": [
+            "${post.editTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$postEditTime",
+		"scope": "text.html.ftl"
+    },
+    "$postCreateTime": {
+		"prefix": "$post.createTime",
+		"body": [
+            "${post.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$postCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$postUpdateTime": {
+		"prefix": "$post.updateTime",
+		"body": [
+            "${post.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$postUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}

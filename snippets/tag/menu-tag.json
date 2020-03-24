@@ -1,0 +1,14 @@
+{
+    "@menuList": {
+		"prefix": "@tag.menu.list",
+		"body": [
+            "<@menuTag method=\"list\">",
+            "\t<#list menus?sort_by('priority') as menu>",
+            "\t\t$0",
+            "\t</#list>",
+			"</@menuTag>"
+		],
+		"description": "@menuList",
+		"scope": "text.html.ftl"
+    }
+}

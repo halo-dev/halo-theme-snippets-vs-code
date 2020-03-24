@@ -25,7 +25,39 @@
 		"snippets": [
 			{
 				"language": "ftl",
-				"path": "./snippets/pagination-tag.json"
+				"path": "./snippets/list/list.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/judge/judge.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/tag/pagination-tag.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/tag/category-tag.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/tag/tag-tag.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/tag/menu-tag.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/category-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/tag-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/post-model.json"
 			}
 		]
 	}

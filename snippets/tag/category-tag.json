@@ -1,0 +1,22 @@
+{
+    "@categoryList": {
+		"prefix": "@tag.category.list",
+		"body": [
+            "<@categoryTag method=\"list\">",
+            "\t<#list categories as category>",
+            "\t\t$0",
+            "\t</#list>",
+			"</@categoryTag>"
+		],
+		"description": "@categoryList",
+		"scope": "text.html.ftl"
+    },
+    "@categoryCount": {
+		"prefix": "@tag.category.count",
+		"body": [
+            "<@categoryTag method=\"count\">${count!0}</@categoryTag>"
+		],
+		"description": "@categoryCount",
+		"scope": "text.html.ftl"
+    }
+}

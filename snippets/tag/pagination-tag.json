@@ -1,0 +1,72 @@
+{
+	"@indexPagination": {
+		"prefix": "@tag.index.pagination",
+		"body": [
+			"<@paginationTag method=\"index\" page=\"${posts.number}\" total=\"${posts.totalPages}\" display=\"3\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@indexPagination",
+		"scope": "text.html.ftl"
+	},
+	"@archivesPagination": {
+		"prefix": "@tag.archives.pagination",
+		"body": [
+			"<@paginationTag method=\"archives\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@archivesPagination",
+		"scope": "text.html.ftl"
+	},
+	"@searchPagination": {
+		"prefix": "@tag.search.pagination",
+		"body": [
+			"<@paginationTag method=\"search\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@searchPagination",
+		"scope": "text.html.ftl"
+	},
+	"@categoryPostsPagination": {
+		"prefix": "@tag.category.posts.pagination",
+		"body": [
+			"<@paginationTag method=\"categoryPosts\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\" slug=\"${category.slug!}\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@categoryPostsPagination",
+		"scope": "text.html.ftl"
+	},
+	"@tagPostsPagination": {
+		"prefix": "@tag.tag.posts.pagination",
+		"body": [
+			"<@paginationTag method=\"tagPosts\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\" slug=\"${tag.slug!}\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@tagPostsPagination",
+		"scope": "text.html.ftl"
+	},
+	"@photosPagination": {
+		"prefix": "@tag.photos.pagination",
+		"body": [
+			"<@paginationTag method=\"photos\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@photosPagination",
+		"scope": "text.html.ftl"
+	},
+	"@journalsPagination": {
+		"prefix": "@tag.journals.pagination",
+		"body": [
+			"<@paginationTag method=\"journals\" page=\"${posts.number!}\" total=\"${posts.totalPages!}\" display=\"3\">",
+			"\t$0",
+			"</@paginationTag>"
+		],
+		"description": "@journalsPagination",
+		"scope": "text.html.ftl"
+	}
+}

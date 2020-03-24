@@ -1,0 +1,66 @@
+{
+    "$categoryId": {
+		"prefix": "$category.id",
+		"body": [
+            "${category.id?c}"
+		],
+		"description": "$categoryId",
+		"scope": "text.html.ftl"
+    },
+    "$categoryName": {
+		"prefix": "$category.name",
+		"body": [
+            "${category.name!}"
+		],
+		"description": "$categoryName",
+		"scope": "text.html.ftl"
+    },
+    "$categorySlug": {
+		"prefix": "$category.slug",
+		"body": [
+            "${category.slug!}"
+		],
+		"description": "$categorySlug",
+		"scope": "text.html.ftl"
+    },
+    "$categoryDescription": {
+		"prefix": "$category.description",
+		"body": [
+            "${category.description!}"
+		],
+		"description": "$categoryDescription",
+		"scope": "text.html.ftl"
+    },
+    "$categoryThumbnail": {
+		"prefix": "$category.thumbnail",
+		"body": [
+            "${category.thumbnail!}"
+		],
+		"description": "$categoryThumbnail",
+		"scope": "text.html.ftl"
+    },
+    "$categoryParentId": {
+		"prefix": "$category.parentId",
+		"body": [
+            "${category.parentId?c}"
+		],
+		"description": "$categoryParentId",
+		"scope": "text.html.ftl"
+    },
+    "$categoryCreateTime": {
+		"prefix": "$category.createTime",
+		"body": [
+            "${category.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$categoryCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$categoryUpdateTime": {
+		"prefix": "$category.updateTime",
+		"body": [
+            "${category.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$categoryUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}
