@@ -34,6 +34,10 @@
 			},
 			{
 				"language": "ftl",
+				"path": "./snippets/tag/global-tag.json"
+			},
+			{
+				"language": "ftl",
 				"path": "./snippets/tag/pagination-tag.json"
 			},
 			{
@@ -59,6 +63,38 @@
 			{
 				"language": "ftl",
 				"path": "./snippets/model/post-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/sheet-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/menu-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/photo-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/link-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/journal-model.json"
+			},
+			{
+				"language": "ftl",
+				"path": "./snippets/model/global-model.json"
+			},
+			{
+				"language": "yaml",
+				"path": "./snippets/config/theme-config.json"
+			},
+			{
+				"language": "yaml",
+				"path": "./snippets/config/settings-config.json"
 			}
 		]
 	}

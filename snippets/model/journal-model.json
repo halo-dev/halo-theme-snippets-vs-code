@@ -1,0 +1,42 @@
+{
+    "$journalId": {
+		"prefix": "$journal.id",
+		"body": [
+            "${journal.id?c}"
+		],
+		"description": "$journalId",
+		"scope": "text.html.ftl"
+    },
+    "$journalContent": {
+		"prefix": "$journal.content",
+		"body": [
+            "${journal.content!}"
+		],
+		"description": "$journalContent",
+		"scope": "text.html.ftl"
+    },
+    "$journalLikes": {
+		"prefix": "$journal.likes",
+		"body": [
+            "${journal.likes?c}"
+		],
+		"description": "$journalLikes",
+		"scope": "text.html.ftl"
+    },
+    "$journalCreateTime": {
+		"prefix": "$journal.createTime",
+		"body": [
+            "${journal.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$journalCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$journalUpdateTime": {
+		"prefix": "$journal.updateTime",
+		"body": [
+            "${journal.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$journalUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}

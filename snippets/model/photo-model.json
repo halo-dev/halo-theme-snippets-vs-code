@@ -1,0 +1,82 @@
+{
+    "$photoId": {
+		"prefix": "$photo.id",
+		"body": [
+            "${photo.id?c}"
+		],
+		"description": "$photoId",
+		"scope": "text.html.ftl"
+    },
+    "$photoName": {
+		"prefix": "$photo.name",
+		"body": [
+            "${photo.name!}"
+		],
+		"description": "$photoName",
+		"scope": "text.html.ftl"
+    },
+    "$photoDescription": {
+		"prefix": "$photo.description",
+		"body": [
+            "${photo.description!}"
+		],
+		"description": "$photoDescription",
+		"scope": "text.html.ftl"
+    },
+    "$photoTakeTime": {
+		"prefix": "$photo.takeTime",
+		"body": [
+            "${photo.takeTime!}"
+		],
+		"description": "$photoTakeTime",
+		"scope": "text.html.ftl"
+    },
+    "$photoLocation": {
+		"prefix": "$photo.location",
+		"body": [
+            "${photo.location!}"
+		],
+		"description": "$photoLocation",
+		"scope": "text.html.ftl"
+    },
+    "$photoThumbnail": {
+		"prefix": "$photo.thumbnail",
+		"body": [
+            "${photo.thumbnail!}"
+		],
+		"description": "$photoThumbnail",
+		"scope": "text.html.ftl"
+    },
+    "$photoUrl": {
+		"prefix": "$photo.url",
+		"body": [
+            "${photo.url!}"
+		],
+		"description": "$photoUrl",
+		"scope": "text.html.ftl"
+    },
+    "$photoTeam": {
+		"prefix": "$photo.team",
+		"body": [
+            "${photo.team!}"
+		],
+		"description": "$photoTeam",
+		"scope": "text.html.ftl"
+    },
+    "$photoCreateTime": {
+		"prefix": "$photo.createTime",
+		"body": [
+            "${photo.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$photoCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$photoUpdateTime": {
+		"prefix": "$photo.updateTime",
+		"body": [
+            "${photo.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$photoUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}

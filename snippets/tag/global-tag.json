@@ -1,0 +1,34 @@
+{
+    "@globalHead": {
+        "prefix": "@tag.global.head",
+        "body": [
+            "<@global.head />"
+        ],
+        "description": "@globalHead",
+        "scope": "text.html.ftl"
+    },
+    "@globalFooter": {
+        "prefix": "@tag.global.footer",
+        "body": [
+            "<@global.footer />"
+        ],
+        "description": "@globalFooter",
+        "scope": "text.html.ftl"
+    },
+    "@globalTimeline": {
+        "prefix": "@tag.global.timeline",
+        "body": [
+            "<@global.timeline datetime=\"\" />"
+        ],
+        "description": "@globalTimeline",
+        "scope": "text.html.ftl"
+    },
+    "@globalComment": {
+        "prefix": "@tag.global.comment",
+        "body": [
+            "<@global.comment target=${1:target} type=\"${2:type}\" />"
+        ],
+        "description": "@globalComment",
+        "scope": "text.html.ftl"
+    }
+}

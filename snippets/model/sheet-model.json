@@ -1,0 +1,82 @@
+{
+    "$sheetId": {
+		"prefix": "$sheet.id",
+		"body": [
+            "${sheet.id?c}"
+		],
+		"description": "$sheetId",
+		"scope": "text.html.ftl"
+    },
+    "$sheetTitle": {
+		"prefix": "$sheet.title",
+		"body": [
+            "${sheet.title!}"
+		],
+		"description": "$sheetTitle",
+		"scope": "text.html.ftl"
+    },
+    "$sheetFormatContent": {
+		"prefix": "$sheet.formatContent",
+		"body": [
+            "${sheet.formatContent!}"
+		],
+		"description": "$sheetFormatContent",
+		"scope": "text.html.ftl"
+    },
+    "$sheetSummary": {
+		"prefix": "$sheet.summary",
+		"body": [
+            "${sheet.summary!}"
+		],
+		"description": "$sheetSummary",
+		"scope": "text.html.ftl"
+    },
+    "$sheetThumbnail": {
+		"prefix": "$sheet.thumbnail",
+		"body": [
+            "${sheet.thumbnail!}"
+		],
+		"description": "$sheetThumbnail",
+		"scope": "text.html.ftl"
+    },
+    "$sheetVisits": {
+		"prefix": "$sheet.visits",
+		"body": [
+            "${sheet.visits?c}"
+		],
+		"description": "$sheetVisits",
+		"scope": "text.html.ftl"
+    },
+    "$sheetLikes": {
+		"prefix": "$sheet.likes",
+		"body": [
+            "${sheet.likes?c}"
+		],
+		"description": "$sheetLikes",
+		"scope": "text.html.ftl"
+    },
+    "$sheetEditTime": {
+		"prefix": "$sheet.editTime",
+		"body": [
+            "${sheet.editTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$sheetEditTime",
+		"scope": "text.html.ftl"
+    },
+    "$sheetCreateTime": {
+		"prefix": "$sheet.createTime",
+		"body": [
+            "${sheet.createTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$sheetCreateTime",
+		"scope": "text.html.ftl"
+    },
+    "$sheetUpdateTime": {
+		"prefix": "$sheet.updateTime",
+		"body": [
+            "${sheet.updateTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$sheetUpdateTime",
+		"scope": "text.html.ftl"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "$menuId": {
+		"prefix": "$menu.id",
+		"body": [
+            "${menu.id?c}"
+		],
+		"description": "$menuId",
+		"scope": "text.html.ftl"
+    },
+    "$menuName": {
+		"prefix": "$menu.name",
+		"body": [
+            "${menu.name!}"
+		],
+		"description": "$menuName",
+		"scope": "text.html.ftl"
+    },
+    "$menuUrl": {
+		"prefix": "$menu.url",
+		"body": [
+            "${menu.url!}"
+		],
+		"description": "$menuUrl",
+		"scope": "text.html.ftl"
+    },
+    "$menuPriority": {
+		"prefix": "$menu.priority",
+		"body": [
+            "${menu.priority!}"
+		],
+		"description": "$menuPriority",
+		"scope": "text.html.ftl"
+    },
+    "$menuTarget": {
+		"prefix": "$menu.target",
+		"body": [
+            "${menu.target!}"
+		],
+		"description": "$menuTarget",
+		"scope": "text.html.ftl"
+    },
+    "$menuIcon": {
+		"prefix": "$menu.icon",
+		"body": [
+            "${menu.icon!}"
+		],
+		"description": "$menuIcon",
+		"scope": "text.html.ftl"
+    },
+    "$menuParentId": {
+		"prefix": "$menu.parentId",
+		"body": [
+            "${menu.parentId!}"
+		],
+		"description": "$menuParentId",
+		"scope": "text.html.ftl"
+    },
+    "$menuTeam": {
+		"prefix": "$menu.team",
+		"body": [
+            "${menu.team!}"
+		],
+		"description": "$menuTeam",
+		"scope": "text.html.ftl"
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "$globalBlogUrl": {
+		"prefix": "$global.blog_url",
+		"body": [
+            "${blog_url!}"
+		],
+		"description": "$globalBlogUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalContext": {
+		"prefix": "$global.context",
+		"body": [
+            "${context!}"
+		],
+		"description": "$globalContext",
+		"scope": "text.html.ftl"
+    },
+    "$globalThemeBase": {
+		"prefix": "$global.theme_base",
+		"body": [
+            "${theme_base!}"
+		],
+		"description": "$globalThemeBase",
+		"scope": "text.html.ftl"
+    },
+    "$globalThemeName": {
+		"prefix": "$global.theme.name",
+		"body": [
+            "${theme.name!}"
+		],
+		"description": "$globalThemeName",
+		"scope": "text.html.ftl"
+    },
+    "$globalThemeRepo": {
+		"prefix": "$global.theme.repo",
+		"body": [
+            "${theme.repo!}"
+		],
+		"description": "$globalThemeRepo",
+		"scope": "text.html.ftl"
+    },
+    "$globalThemeVersion": {
+		"prefix": "$global.theme.version",
+		"body": [
+            "${theme.version!}"
+		],
+		"description": "$globalThemeVersion",
+		"scope": "text.html.ftl"
+    },
+    "$globalBlogTitle": {
+		"prefix": "$global.blog_title",
+		"body": [
+            "${blog_title!}"
+		],
+		"description": "$globalBlogTitle",
+		"scope": "text.html.ftl"
+    },
+    "$globalBlogLogo": {
+		"prefix": "$global.blog_logo",
+		"body": [
+            "${blog_logo!}"
+		],
+		"description": "$globalBlogLogo",
+		"scope": "text.html.ftl"
+    },
+    "$globalVersion": {
+		"prefix": "$global.version",
+		"body": [
+            "${version!}"
+		],
+		"description": "$globalVersion",
+		"scope": "text.html.ftl"
+    },
+    "$globalUserNickname": {
+		"prefix": "$global.user.nickname",
+		"body": [
+            "${user.nickname!}"
+		],
+		"description": "$globalUserNickname",
+		"scope": "text.html.ftl"
+    },
+    "$globalUserEmail": {
+		"prefix": "$global.user.email",
+		"body": [
+            "${user.email!}"
+		],
+		"description": "$globalUserEmail",
+		"scope": "text.html.ftl"
+    },
+    "$globalUserDescription": {
+		"prefix": "$global.user.description",
+		"body": [
+            "${user.description!}"
+		],
+		"description": "$globalUserDescription",
+		"scope": "text.html.ftl"
+    },
+    "$globalUserAvatar": {
+		"prefix": "$global.user.avatar",
+		"body": [
+            "${user.avatar!}"
+		],
+		"description": "$globalUserAvatar",
+		"scope": "text.html.ftl"
+    },
+    "$globalUserExpireTime": {
+		"prefix": "$global.user.expireTime",
+		"body": [
+            "${user.expireTime?string('yyyy-MM-dd')}"
+		],
+		"description": "$globalUserExpireTime",
+		"scope": "text.html.ftl"
+    },
+    "$globalMetaKeywords": {
+		"prefix": "$global.meta_keywords",
+		"body": [
+            "${meta_keywords!}"
+		],
+		"description": "$globalMetaKeywords",
+		"scope": "text.html.ftl"
+    },
+    "$globalMetaDescription": {
+		"prefix": "$global.meta_description",
+		"body": [
+            "${meta_description!}"
+		],
+		"description": "$globalMetaDescription",
+		"scope": "text.html.ftl"
+    },
+    "$globalRssUrl": {
+		"prefix": "$global.rss_url",
+		"body": [
+            "${rss_url!}"
+		],
+		"description": "$globalRssUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalAtomUrl": {
+		"prefix": "$global.atom_url",
+		"body": [
+            "${atom_url!}"
+		],
+		"description": "$globalAtomUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalSitemapXmlUrl": {
+		"prefix": "$global.sitemap_xml_url",
+		"body": [
+            "${sitemap_xml_url!}"
+		],
+		"description": "$globalSitemapXmlUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalSitemapHtmlUrl": {
+		"prefix": "$global.sitemap_html_url",
+		"body": [
+            "${sitemap_html_url!}"
+		],
+		"description": "$globalSitemapHtmlUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalLinksUrl": {
+		"prefix": "$global.links_url",
+		"body": [
+            "${links_url!}"
+		],
+		"description": "$globalLinksUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalPhotosUrl": {
+		"prefix": "$global.photos_url",
+		"body": [
+            "${photos_url!}"
+		],
+		"description": "$globalPhotosUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalJournalsUrl": {
+		"prefix": "$global.journals_url",
+		"body": [
+            "${journals_url!}"
+		],
+		"description": "$globalJournalsUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalArchivesUrl": {
+		"prefix": "$global.archives_url",
+		"body": [
+            "${archives_url!}"
+		],
+		"description": "$globalArchivesUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalCategoriesUrl": {
+		"prefix": "$global.categories_url",
+		"body": [
+            "${categories_url!}"
+		],
+		"description": "$globalCategoriesUrl",
+		"scope": "text.html.ftl"
+    },
+    "$globalTagsUrl": {
+		"prefix": "$global.tags_url",
+		"body": [
+            "${tags_url!}"
+		],
+		"description": "$globalTagsUrl",
+		"scope": "text.html.ftl"
+    },
+}
