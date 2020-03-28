@@ -1,82 +1,98 @@
 {
     "$sheetId": {
-		"prefix": "$sheet.id",
+		"prefix": "$s.id",
 		"body": [
             "${sheet.id?c}"
 		],
-		"description": "$sheetId",
+		"description": "${sheet.id?c}",
 		"scope": "text.html.ftl"
     },
     "$sheetTitle": {
-		"prefix": "$sheet.title",
+		"prefix": "$s.title",
 		"body": [
             "${sheet.title!}"
 		],
-		"description": "$sheetTitle",
+		"description": "${sheet.title!}",
+		"scope": "text.html.ftl"
+	},
+	"$sheetSlug": {
+		"prefix": "$s.slug",
+		"body": [
+            "${sheet.slug!}"
+		],
+		"description": "${sheet.slug!}",
+		"scope": "text.html.ftl"
+	},
+	"$sheetFullPath": {
+		"prefix": "$s.fullPath",
+		"body": [
+            "${sheet.fullPath!}"
+		],
+		"description": "${sheet.fullPath!}",
 		"scope": "text.html.ftl"
     },
     "$sheetFormatContent": {
-		"prefix": "$sheet.formatContent",
+		"prefix": "$s.formatContent",
 		"body": [
             "${sheet.formatContent!}"
 		],
-		"description": "$sheetFormatContent",
+		"description": "${sheet.formatContent!}",
 		"scope": "text.html.ftl"
     },
     "$sheetSummary": {
-		"prefix": "$sheet.summary",
+		"prefix": "$s.summary",
 		"body": [
             "${sheet.summary!}"
 		],
-		"description": "$sheetSummary",
+		"description": "${sheet.summary!}",
 		"scope": "text.html.ftl"
     },
     "$sheetThumbnail": {
-		"prefix": "$sheet.thumbnail",
+		"prefix": "$s.thumbnail",
 		"body": [
             "${sheet.thumbnail!}"
 		],
-		"description": "$sheetThumbnail",
+		"description": "${sheet.thumbnail!}",
 		"scope": "text.html.ftl"
     },
     "$sheetVisits": {
-		"prefix": "$sheet.visits",
+		"prefix": "$s.visits",
 		"body": [
             "${sheet.visits?c}"
 		],
-		"description": "$sheetVisits",
+		"description": "${sheet.visits?c}",
 		"scope": "text.html.ftl"
     },
     "$sheetLikes": {
-		"prefix": "$sheet.likes",
+		"prefix": "$s.likes",
 		"body": [
             "${sheet.likes?c}"
 		],
-		"description": "$sheetLikes",
+		"description": "${sheet.likes?c}",
 		"scope": "text.html.ftl"
     },
     "$sheetEditTime": {
-		"prefix": "$sheet.editTime",
+		"prefix": "$s.editTime",
 		"body": [
             "${sheet.editTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$sheetEditTime",
+		"description": "${sheet.editTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$sheetCreateTime": {
-		"prefix": "$sheet.createTime",
+		"prefix": "$s.createTime",
 		"body": [
             "${sheet.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$sheetCreateTime",
+		"description": "${sheet.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$sheetUpdateTime": {
-		"prefix": "$sheet.updateTime",
+		"prefix": "$s.updateTime",
 		"body": [
             "${sheet.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$sheetUpdateTime",
+		"description": "${sheet.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

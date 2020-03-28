@@ -1,66 +1,66 @@
 {
     "$linkId": {
-		"prefix": "$link.id",
+		"prefix": "$l.id",
 		"body": [
             "${link.id?c}"
 		],
-		"description": "$linkId",
+		"description": "${link.id?c}",
 		"scope": "text.html.ftl"
     },
     "$linkName": {
-		"prefix": "$link.name",
+		"prefix": "$l.name",
 		"body": [
             "${link.name!}"
 		],
-		"description": "$linkName",
+		"description": "${link.name!}",
 		"scope": "text.html.ftl"
     },
     "$linkUrl": {
-		"prefix": "$link.url",
+		"prefix": "$l.url",
 		"body": [
             "${link.url!}"
 		],
-		"description": "$linkUrl",
+		"description": "${link.url!}",
 		"scope": "text.html.ftl"
     },
     "$linkLogo": {
-		"prefix": "$link.logo",
+		"prefix": "$l.logo",
 		"body": [
             "${link.logo!}"
 		],
-		"description": "$linkLogo",
+		"description": "${link.logo!}",
 		"scope": "text.html.ftl"
     },
     "$linkDescription": {
-		"prefix": "$link.description",
+		"prefix": "$l.description",
 		"body": [
             "${link.description!}"
 		],
-		"description": "$linkDescription",
+		"description": "${link.description!}",
 		"scope": "text.html.ftl"
     },
     "$linkTeam": {
-		"prefix": "$link.team",
+		"prefix": "$l.team",
 		"body": [
             "${link.team!}"
 		],
-		"description": "$linkTeam",
+		"description": "${link.team!}",
 		"scope": "text.html.ftl"
     },
     "$linkCreateTime": {
-		"prefix": "$link.createTime",
+		"prefix": "$l.createTime",
 		"body": [
             "${link.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$linkCreateTime",
+		"description": "${link.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$linkUpdateTime": {
-		"prefix": "$link.updateTime",
+		"prefix": "$l.updateTime",
 		"body": [
             "${link.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$linkUpdateTime",
+		"description": "${link.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

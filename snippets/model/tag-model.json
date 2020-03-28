@@ -1,50 +1,58 @@
 {
     "$tagId": {
-		"prefix": "$tag.id",
+		"prefix": "$t.id",
 		"body": [
             "${tag.id?c}"
 		],
-		"description": "$tagId",
+		"description": "${tag.id?c}",
 		"scope": "text.html.ftl"
     },
     "$tagName": {
-		"prefix": "$tag.name",
+		"prefix": "$t.name",
 		"body": [
             "${tag.name!}"
 		],
-		"description": "$tagName",
+		"description": "${tag.name!}",
 		"scope": "text.html.ftl"
     },
     "$tagSlug": {
-		"prefix": "$tag.slug",
+		"prefix": "$t.slug",
 		"body": [
             "${tag.slug!}"
 		],
-		"description": "$tagSlug",
+		"description": "${tag.slug!}",
+		"scope": "text.html.ftl"
+	},
+	"$tagFullPath": {
+		"prefix": "$t.fullPath",
+		"body": [
+            "${tag.fullPath!}"
+		],
+		"description": "${tag.fullPath!}",
 		"scope": "text.html.ftl"
     },
     "$tagThumbnail": {
-		"prefix": "$tag.thumbnail",
+		"prefix": "$t.thumbnail",
 		"body": [
             "${tag.thumbnail!}"
 		],
-		"description": "$tagThumbnail",
+		"description": "${tag.thumbnail!}",
 		"scope": "text.html.ftl"
     },
     "$tagCreateTime": {
-		"prefix": "$tag.createTime",
+		"prefix": "$t.createTime",
 		"body": [
             "${tag.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$tagCreateTime",
+		"description": "${tag.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$tagUpdateTime": {
-		"prefix": "$tag.updateTime",
+		"prefix": "$t.updateTime",
 		"body": [
             "${tag.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$tagUpdateTime",
+		"description": "${tag.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

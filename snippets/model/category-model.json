@@ -1,66 +1,74 @@
 {
     "$categoryId": {
-		"prefix": "$category.id",
+		"prefix": "$c.id",
 		"body": [
             "${category.id?c}"
 		],
-		"description": "$categoryId",
+		"description": "${category.id?c}",
 		"scope": "text.html.ftl"
     },
     "$categoryName": {
-		"prefix": "$category.name",
+		"prefix": "$c.name",
 		"body": [
             "${category.name!}"
 		],
-		"description": "$categoryName",
+		"description": "${category.name!}",
 		"scope": "text.html.ftl"
     },
     "$categorySlug": {
-		"prefix": "$category.slug",
+		"prefix": "$c.slug",
 		"body": [
             "${category.slug!}"
 		],
-		"description": "$categorySlug",
+		"description": "${category.slug!}",
+		"scope": "text.html.ftl"
+	},
+	"$categoryFullPath": {
+		"prefix": "$c.fullPath",
+		"body": [
+            "${category.fullPath!}"
+		],
+		"description": "${category.fullPath!}",
 		"scope": "text.html.ftl"
     },
     "$categoryDescription": {
-		"prefix": "$category.description",
+		"prefix": "$c.description",
 		"body": [
             "${category.description!}"
 		],
-		"description": "$categoryDescription",
+		"description": "${category.description!}",
 		"scope": "text.html.ftl"
     },
     "$categoryThumbnail": {
-		"prefix": "$category.thumbnail",
+		"prefix": "$c.thumbnail",
 		"body": [
             "${category.thumbnail!}"
 		],
-		"description": "$categoryThumbnail",
+		"description": "${category.thumbnail!}",
 		"scope": "text.html.ftl"
     },
     "$categoryParentId": {
-		"prefix": "$category.parentId",
+		"prefix": "$c.parentId",
 		"body": [
             "${category.parentId?c}"
 		],
-		"description": "$categoryParentId",
+		"description": "${category.parentId?c}",
 		"scope": "text.html.ftl"
     },
     "$categoryCreateTime": {
-		"prefix": "$category.createTime",
+		"prefix": "$c.createTime",
 		"body": [
             "${category.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$categoryCreateTime",
+		"description": "${category.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$categoryUpdateTime": {
-		"prefix": "$category.updateTime",
+		"prefix": "$c.updateTime",
 		"body": [
             "${category.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$categoryUpdateTime",
+		"description": "${category.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

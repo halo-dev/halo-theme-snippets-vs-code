@@ -1,82 +1,82 @@
 {
     "$photoId": {
-		"prefix": "$photo.id",
+		"prefix": "$ph.id",
 		"body": [
             "${photo.id?c}"
 		],
-		"description": "$photoId",
+		"description": "${photo.id?c}",
 		"scope": "text.html.ftl"
     },
     "$photoName": {
-		"prefix": "$photo.name",
+		"prefix": "$ph.name",
 		"body": [
             "${photo.name!}"
 		],
-		"description": "$photoName",
+		"description": "${photo.name!}",
 		"scope": "text.html.ftl"
     },
     "$photoDescription": {
-		"prefix": "$photo.description",
+		"prefix": "$ph.description",
 		"body": [
             "${photo.description!}"
 		],
-		"description": "$photoDescription",
+		"description": "${photo.description!}",
 		"scope": "text.html.ftl"
     },
     "$photoTakeTime": {
-		"prefix": "$photo.takeTime",
+		"prefix": "$ph.takeTime",
 		"body": [
             "${photo.takeTime!}"
 		],
-		"description": "$photoTakeTime",
+		"description": "${photo.takeTime!}",
 		"scope": "text.html.ftl"
     },
     "$photoLocation": {
-		"prefix": "$photo.location",
+		"prefix": "$ph.location",
 		"body": [
             "${photo.location!}"
 		],
-		"description": "$photoLocation",
+		"description": "${photo.location!}",
 		"scope": "text.html.ftl"
     },
     "$photoThumbnail": {
-		"prefix": "$photo.thumbnail",
+		"prefix": "$ph.thumbnail",
 		"body": [
             "${photo.thumbnail!}"
 		],
-		"description": "$photoThumbnail",
+		"description": "${photo.thumbnail!}",
 		"scope": "text.html.ftl"
     },
     "$photoUrl": {
-		"prefix": "$photo.url",
+		"prefix": "$ph.url",
 		"body": [
             "${photo.url!}"
 		],
-		"description": "$photoUrl",
+		"description": "${photo.url!}",
 		"scope": "text.html.ftl"
     },
     "$photoTeam": {
-		"prefix": "$photo.team",
+		"prefix": "$ph.team",
 		"body": [
             "${photo.team!}"
 		],
-		"description": "$photoTeam",
+		"description": "${photo.team!}",
 		"scope": "text.html.ftl"
     },
     "$photoCreateTime": {
-		"prefix": "$photo.createTime",
+		"prefix": "$ph.createTime",
 		"body": [
             "${photo.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$photoCreateTime",
+		"description": "${photo.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$photoUpdateTime": {
-		"prefix": "$photo.updateTime",
+		"prefix": "$ph.updateTime",
 		"body": [
             "${photo.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$photoUpdateTime",
+		"description": "${photo.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

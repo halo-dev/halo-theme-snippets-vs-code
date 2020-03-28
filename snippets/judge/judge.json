@@ -1,20 +1,20 @@
 {
-    "@themeSettingStringJudge": {
+	"@themeSettingStringJudge": {
 		"prefix": "?settings.string.key",
 		"body": [
-            "<#if settings.${1:key}?? && settings.${1:key}!=''>",
-            "\t$0",
-            "</#if>"
+			"<#if settings.${1:key}?? && settings.${1:key}!=''>",
+			"\t$0",
+			"</#if>"
 		],
 		"description": "@themeSettingStringJudge",
 		"scope": "text.html.ftl"
-    },
-    "@themeSettingBooleanJudge": {
+	},
+	"@themeSettingBooleanJudge": {
 		"prefix": "?settings.boolean.key",
 		"body": [
-            "<#if settings.${1:key}!${2:default}>",
-            "\t$0",
-            "</#if>"
+			"<#if settings.${1:key}!${2:default}>",
+			"\t$0",
+			"</#if>"
 		],
 		"description": "@themeSettingBooleanJudge",
 		"scope": "text.html.ftl"

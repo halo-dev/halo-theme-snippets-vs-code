@@ -1,82 +1,98 @@
 {
     "$postId": {
-		"prefix": "$post.id",
+		"prefix": "$p.id",
 		"body": [
             "${post.id?c}"
 		],
-		"description": "$postId",
+		"description": "${post.id?c}",
 		"scope": "text.html.ftl"
     },
     "$postTitle": {
-		"prefix": "$post.title",
+		"prefix": "$p.title",
 		"body": [
             "${post.title!}"
 		],
-		"description": "$postTitle",
+		"description": "${post.title!}",
+		"scope": "text.html.ftl"
+	},
+	"$postSlug": {
+		"prefix": "$p.slug",
+		"body": [
+            "${post.slug!}"
+		],
+		"description": "${post.slug!}",
+		"scope": "text.html.ftl"
+	},
+	"$postFullPath": {
+		"prefix": "$p.fullPath",
+		"body": [
+            "${post.fullPath!}"
+		],
+		"description": "${post.fullPath!}",
 		"scope": "text.html.ftl"
     },
     "$postFormatContent": {
-		"prefix": "$post.formatContent",
+		"prefix": "$p.formatContent",
 		"body": [
             "${post.formatContent!}"
 		],
-		"description": "$postFormatContent",
+		"description": "${post.formatContent!}",
 		"scope": "text.html.ftl"
     },
     "$postSummary": {
-		"prefix": "$post.summary",
+		"prefix": "$p.summary",
 		"body": [
             "${post.summary!}"
 		],
-		"description": "$postSummary",
+		"description": "${post.summary!}",
 		"scope": "text.html.ftl"
     },
     "$postThumbnail": {
-		"prefix": "$post.thumbnail",
+		"prefix": "$p.thumbnail",
 		"body": [
             "${post.thumbnail!}"
 		],
-		"description": "$postThumbnail",
+		"description": "${post.thumbnail!}",
 		"scope": "text.html.ftl"
     },
     "$postVisits": {
-		"prefix": "$post.visits",
+		"prefix": "$p.visits",
 		"body": [
             "${post.visits?c}"
 		],
-		"description": "$postVisits",
+		"description": "${post.visits?c}",
 		"scope": "text.html.ftl"
     },
     "$postLikes": {
-		"prefix": "$post.likes",
+		"prefix": "$p.likes",
 		"body": [
             "${post.likes?c}"
 		],
-		"description": "$postLikes",
+		"description": "${post.likes?c}",
 		"scope": "text.html.ftl"
     },
     "$postEditTime": {
-		"prefix": "$post.editTime",
+		"prefix": "$p.editTime",
 		"body": [
             "${post.editTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$postEditTime",
+		"description": "${post.editTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$postCreateTime": {
-		"prefix": "$post.createTime",
+		"prefix": "$p.createTime",
 		"body": [
             "${post.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$postCreateTime",
+		"description": "${post.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$postUpdateTime": {
-		"prefix": "$post.updateTime",
+		"prefix": "$p.updateTime",
 		"body": [
             "${post.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$postUpdateTime",
+		"description": "${post.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

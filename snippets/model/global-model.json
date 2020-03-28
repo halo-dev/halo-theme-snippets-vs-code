@@ -1,210 +1,210 @@
 {
     "$globalBlogUrl": {
-		"prefix": "$global.blog_url",
+		"prefix": "$g.blog_url",
 		"body": [
             "${blog_url!}"
 		],
-		"description": "$globalBlogUrl",
+		"description": "${blog_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalContext": {
-		"prefix": "$global.context",
+		"prefix": "$g.context",
 		"body": [
             "${context!}"
 		],
-		"description": "$globalContext",
+		"description": "${context!}",
 		"scope": "text.html.ftl"
     },
     "$globalThemeBase": {
-		"prefix": "$global.theme_base",
+		"prefix": "$g.theme_base",
 		"body": [
             "${theme_base!}"
 		],
-		"description": "$globalThemeBase",
+		"description": "${theme_base!}",
 		"scope": "text.html.ftl"
     },
     "$globalThemeName": {
-		"prefix": "$global.theme.name",
+		"prefix": "$g.theme.name",
 		"body": [
             "${theme.name!}"
 		],
-		"description": "$globalThemeName",
+		"description": "${theme.name!}",
 		"scope": "text.html.ftl"
     },
     "$globalThemeRepo": {
-		"prefix": "$global.theme.repo",
+		"prefix": "$g.theme.repo",
 		"body": [
             "${theme.repo!}"
 		],
-		"description": "$globalThemeRepo",
+		"description": "${theme.repo!}",
 		"scope": "text.html.ftl"
     },
     "$globalThemeVersion": {
-		"prefix": "$global.theme.version",
+		"prefix": "$g.theme.version",
 		"body": [
             "${theme.version!}"
 		],
-		"description": "$globalThemeVersion",
+		"description": "${theme.version!}",
 		"scope": "text.html.ftl"
     },
     "$globalBlogTitle": {
-		"prefix": "$global.blog_title",
+		"prefix": "$g.blog_title",
 		"body": [
             "${blog_title!}"
 		],
-		"description": "$globalBlogTitle",
+		"description": "${blog_title!}",
 		"scope": "text.html.ftl"
     },
     "$globalBlogLogo": {
-		"prefix": "$global.blog_logo",
+		"prefix": "$g.blog_logo",
 		"body": [
             "${blog_logo!}"
 		],
-		"description": "$globalBlogLogo",
+		"description": "${blog_logo!}",
 		"scope": "text.html.ftl"
     },
     "$globalVersion": {
-		"prefix": "$global.version",
+		"prefix": "$g.version",
 		"body": [
             "${version!}"
 		],
-		"description": "$globalVersion",
+		"description": "${version!}",
 		"scope": "text.html.ftl"
     },
     "$globalUserNickname": {
-		"prefix": "$global.user.nickname",
+		"prefix": "$g.user.nickname",
 		"body": [
             "${user.nickname!}"
 		],
-		"description": "$globalUserNickname",
+		"description": "${user.nickname!}",
 		"scope": "text.html.ftl"
     },
     "$globalUserEmail": {
-		"prefix": "$global.user.email",
+		"prefix": "$g.user.email",
 		"body": [
             "${user.email!}"
 		],
-		"description": "$globalUserEmail",
+		"description": "${user.email!}",
 		"scope": "text.html.ftl"
     },
     "$globalUserDescription": {
-		"prefix": "$global.user.description",
+		"prefix": "$g.user.description",
 		"body": [
             "${user.description!}"
 		],
-		"description": "$globalUserDescription",
+		"description": "${user.description!}",
 		"scope": "text.html.ftl"
     },
     "$globalUserAvatar": {
-		"prefix": "$global.user.avatar",
+		"prefix": "$g.user.avatar",
 		"body": [
             "${user.avatar!}"
 		],
-		"description": "$globalUserAvatar",
+		"description": "${user.avatar!}",
 		"scope": "text.html.ftl"
     },
     "$globalUserExpireTime": {
-		"prefix": "$global.user.expireTime",
+		"prefix": "$g.user.expireTime",
 		"body": [
             "${user.expireTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$globalUserExpireTime",
+		"description": "${user.expireTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$globalMetaKeywords": {
-		"prefix": "$global.meta_keywords",
+		"prefix": "$g.meta_keywords",
 		"body": [
             "${meta_keywords!}"
 		],
-		"description": "$globalMetaKeywords",
+		"description": "${meta_keywords!}",
 		"scope": "text.html.ftl"
     },
     "$globalMetaDescription": {
-		"prefix": "$global.meta_description",
+		"prefix": "$g.meta_description",
 		"body": [
             "${meta_description!}"
 		],
-		"description": "$globalMetaDescription",
+		"description": "${meta_description!}",
 		"scope": "text.html.ftl"
     },
     "$globalRssUrl": {
-		"prefix": "$global.rss_url",
+		"prefix": "$g.rss_url",
 		"body": [
             "${rss_url!}"
 		],
-		"description": "$globalRssUrl",
+		"description": "${rss_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalAtomUrl": {
-		"prefix": "$global.atom_url",
+		"prefix": "$g.atom_url",
 		"body": [
             "${atom_url!}"
 		],
-		"description": "$globalAtomUrl",
+		"description": "${atom_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalSitemapXmlUrl": {
-		"prefix": "$global.sitemap_xml_url",
+		"prefix": "$g.sitemap_xml_url",
 		"body": [
             "${sitemap_xml_url!}"
 		],
-		"description": "$globalSitemapXmlUrl",
+		"description": "${sitemap_xml_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalSitemapHtmlUrl": {
-		"prefix": "$global.sitemap_html_url",
+		"prefix": "$g.sitemap_html_url",
 		"body": [
             "${sitemap_html_url!}"
 		],
-		"description": "$globalSitemapHtmlUrl",
+		"description": "${sitemap_html_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalLinksUrl": {
-		"prefix": "$global.links_url",
+		"prefix": "$g.links_url",
 		"body": [
             "${links_url!}"
 		],
-		"description": "$globalLinksUrl",
+		"description": "${links_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalPhotosUrl": {
-		"prefix": "$global.photos_url",
+		"prefix": "$g.photos_url",
 		"body": [
             "${photos_url!}"
 		],
-		"description": "$globalPhotosUrl",
+		"description": "${photos_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalJournalsUrl": {
-		"prefix": "$global.journals_url",
+		"prefix": "$g.journals_url",
 		"body": [
             "${journals_url!}"
 		],
-		"description": "$globalJournalsUrl",
+		"description": "${journals_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalArchivesUrl": {
-		"prefix": "$global.archives_url",
+		"prefix": "$g.archives_url",
 		"body": [
             "${archives_url!}"
 		],
-		"description": "$globalArchivesUrl",
+		"description": "${archives_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalCategoriesUrl": {
-		"prefix": "$global.categories_url",
+		"prefix": "$g.categories_url",
 		"body": [
             "${categories_url!}"
 		],
-		"description": "$globalCategoriesUrl",
+		"description": "${categories_url!}",
 		"scope": "text.html.ftl"
     },
     "$globalTagsUrl": {
-		"prefix": "$global.tags_url",
+		"prefix": "$g.tags_url",
 		"body": [
             "${tags_url!}"
 		],
-		"description": "$globalTagsUrl",
+		"description": "${tags_url!}",
 		"scope": "text.html.ftl"
-    },
+    }
 }

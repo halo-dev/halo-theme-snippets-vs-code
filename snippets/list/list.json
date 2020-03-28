@@ -1,10 +1,23 @@
 {
-    "@postPageList": {
+	"@postPageList": {
 		"prefix": "#list.post.page",
 		"body": [
-            "<#list posts.content as post>",
-            "\t$0",
-            "</#list>"
+			"<#list posts.content as post>",
+			"\t$0",
+			"</#list>"
+		],
+		"description": "@postPageLoop",
+		"scope": "text.html.ftl"
+	},
+	"@postArchivesList": {
+		"prefix": "#list.post.archives",
+		"body": [
+			"<#list archives as archive>",
+			"\t<h1>${archives.year?c}</h1>",
+			"\t<#list archive.posts as post>",
+			"\t\t$0",
+			"\t</#list>",
+			"</#list>"
 		],
 		"description": "@postPageLoop",
 		"scope": "text.html.ftl"
@@ -12,9 +25,9 @@
 	"@postList": {
 		"prefix": "#list.post",
 		"body": [
-            "<#list posts as post>",
-            "\t$0",
-            "</#list>"
+			"<#list posts as post>",
+			"\t$0",
+			"</#list>"
 		],
 		"description": "@postList",
 		"scope": "text.html.ftl"
@@ -22,9 +35,9 @@
 	"@categoryList": {
 		"prefix": "#list.category",
 		"body": [
-            "<#list categories as category>",
-            "\t$0",
-            "</#list>"
+			"<#list categories as category>",
+			"\t$0",
+			"</#list>"
 		],
 		"description": "@categoryList",
 		"scope": "text.html.ftl"
@@ -32,9 +45,9 @@
 	"@postCategoryList": {
 		"prefix": "#list.post.category",
 		"body": [
-            "<#list post.categories as category>",
-            "\t$0",
-            "</#list>"
+			"<#list post.categories as category>",
+			"\t$0",
+			"</#list>"
 		],
 		"description": "@postCategoryList",
 		"scope": "text.html.ftl"
@@ -42,9 +55,9 @@
 	"@tagList": {
 		"prefix": "#list.tag",
 		"body": [
-            "<#list tags as tag>",
-            "\t$0",
-            "</#list>"
+			"<#list tags as tag>",
+			"\t$0",
+			"</#list>"
 		],
 		"description": "@tagList",
 		"scope": "text.html.ftl"
@@ -52,9 +65,9 @@
 	"@postTagList": {
 		"prefix": "#list.post.tag",
 		"body": [
-            "<#list post.tags as tag>",
-            "\t$0",
-            "</#list>"
+			"<#list post.tags as tag>",
+			"\t$0",
+			"</#list>"
 		],
 		"description": "@postTagList",
 		"scope": "text.html.ftl"

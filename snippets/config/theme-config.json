@@ -1,20 +1,20 @@
 {
-    "@themeConfigTemplate": {
-		"prefix": "!theme.template",
-		"body": [
-            "id: ${1:id}",
-            "name: ${2:name}",
-            "author:",
-            "\tname: ${3:author_name}",
-            "\twebsite: ${4:author_website}",
-            "description: ${5:description}",
-            "logo: ${6:logo}",
-            "website: ${7:website}",
-            "repo: ${8:repo}",
-            "version: ${9:version}",
-            "require: ${10:require}"
-		],
-		"description": "@themeConfigTemplate",
-		"scope": "text.html.ftl"
-    }
+  "@themeConfigTemplate": {
+    "prefix": "!theme.template",
+    "body": [
+      "id: ${1:id}",
+      "name: ${2:name}",
+      "author:",
+      "\tname: ${3:author_name}",
+      "\twebsite: ${4:author_website}",
+      "description: ${5:description}",
+      "logo: ${6:logo}",
+      "website: ${7:website}",
+      "repo: ${8:repo}",
+      "version: ${9:version}",
+      "require: ${10:require}"
+    ],
+    "description": "@themeConfigTemplate",
+    "scope": "yaml"
+  }
 }

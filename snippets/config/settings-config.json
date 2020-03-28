@@ -1,113 +1,113 @@
 {
-    "@themeSettingNewGroup": {
-		"prefix": "!settings.new.group",
-		"body": [
-            "${1:id}:",
-            "\tlabel: ${2:label}",
-            "\titems:",
-            "$0"
-		],
-		"description": "@themeSettingNewGroup",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewTextItem": {
-		"prefix": "!settings.new.text.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: text",
-            "\t\t\tdefault: ${4:default}",
-            "\t\t\tplaceholder: ${5:placeholder}",
-            "\t\t\tdescription: ${6:description}",
-            "$0"
-		],
-		"description": "@themeSettingNewTextItem",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewColorItem": {
-		"prefix": "!settings.new.color.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: color",
-            "\t\t\tdefault: ${4:default}",
-            "\t\t\tplaceholder: ${5:placeholder}",
-            "\t\t\tdescription: ${6:description}",
-            "$0"
-		],
-		"description": "@themeSettingNewColorItem",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewAttachmentItem": {
-		"prefix": "!settings.new.attachment.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: attachment",
-            "\t\t\tdefault: ${4:default}",
-            "\t\t\tplaceholder: ${5:placeholder}",
-            "\t\t\tdescription: ${6:description}",
-            "$0"
-		],
-		"description": "@themeSettingNewAttachmentItem",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewTextareaItem": {
-		"prefix": "!settings.new.textarea.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: textarea",
-            "\t\t\tdefault: ${4:default}",
-            "\t\t\tplaceholder: ${5:placeholder}",
-            "\t\t\tdescription: ${6:description}",
-            "$0"
-		],
-		"description": "@themeSettingNewTextareaItem",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewRadioItem": {
-		"prefix": "!settings.new.radio.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: radio",
-            "\t\t\tdata-type: ${4:data-type}",
-            "\t\t\tdefault: ${5:default}",
-            "\t\t\tdescription: ${7:description}",
-            "\t\t\toptions:",
-            "\t\t\t\t- value1: value1",
-            "\t\t\t\t\tlabel1: label1",
-            "\t\t\t\t- value2: value2",
-            "\t\t\t\t\tlabel2: label2",
-            "$0"
-		],
-		"description": "@themeSettingNewRadioItem",
-		"scope": "text.html.ftl"
-    },
-    "@themeSettingNewSelectItem": {
-		"prefix": "!settings.new.select.item",
-		"body": [
-            "\t\t${1:id}:",
-            "\t\t\tname: ${1:name}",
-            "\t\t\tlabel: ${3:label}",
-            "\t\t\ttype: select",
-            "\t\t\tdata-type: ${4:data-type}",
-            "\t\t\tdefault: ${5:default}",
-            "\t\t\tdescription: ${7:description}",
-            "\t\t\toptions:",
-            "\t\t\t\t- value1: value1",
-            "\t\t\t\t\tlabel1: label1",
-            "\t\t\t\t- value2: value2",
-            "\t\t\t\t\tlabel2: label2",
-            "$0"
-		],
-		"description": "@themeSettingNewSelectItem",
-		"scope": "text.html.ftl"
-    }
+  "@themeSettingNewGroup": {
+    "prefix": "!settings.new.group",
+    "body": [
+      "${1:id}:",
+      "\tlabel: ${2:label}",
+      "\titems:",
+      "$0"
+    ],
+    "description": "@themeSettingNewGroup",
+    "scope": "yaml"
+  },
+  "@themeSettingNewTextItem": {
+    "prefix": "!settings.new.text.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: text",
+      "\t\t\tdefault: ${4:default}",
+      "\t\t\tplaceholder: ${5:placeholder}",
+      "\t\t\tdescription: ${6:description}",
+      "$0"
+    ],
+    "description": "@themeSettingNewTextItem",
+    "scope": "yaml"
+  },
+  "@themeSettingNewColorItem": {
+    "prefix": "!settings.new.color.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: color",
+      "\t\t\tdefault: ${4:default}",
+      "\t\t\tplaceholder: ${5:placeholder}",
+      "\t\t\tdescription: ${6:description}",
+      "$0"
+    ],
+    "description": "@themeSettingNewColorItem",
+    "scope": "yaml"
+  },
+  "@themeSettingNewAttachmentItem": {
+    "prefix": "!settings.new.attachment.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: attachment",
+      "\t\t\tdefault: ${4:default}",
+      "\t\t\tplaceholder: ${5:placeholder}",
+      "\t\t\tdescription: ${6:description}",
+      "$0"
+    ],
+    "description": "@themeSettingNewAttachmentItem",
+    "scope": "yaml"
+  },
+  "@themeSettingNewTextareaItem": {
+    "prefix": "!settings.new.textarea.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: textarea",
+      "\t\t\tdefault: ${4:default}",
+      "\t\t\tplaceholder: ${5:placeholder}",
+      "\t\t\tdescription: ${6:description}",
+      "$0"
+    ],
+    "description": "@themeSettingNewTextareaItem",
+    "scope": "yaml"
+  },
+  "@themeSettingNewRadioItem": {
+    "prefix": "!settings.new.radio.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: radio",
+      "\t\t\tdata-type: ${4:data-type}",
+      "\t\t\tdefault: ${5:default}",
+      "\t\t\tdescription: ${7:description}",
+      "\t\t\toptions:",
+      "\t\t\t\t- value1: value1",
+      "\t\t\t\t\tlabel1: label1",
+      "\t\t\t\t- value2: value2",
+      "\t\t\t\t\tlabel2: label2",
+      "$0"
+    ],
+    "description": "@themeSettingNewRadioItem",
+    "scope": "yaml"
+  },
+  "@themeSettingNewSelectItem": {
+    "prefix": "!settings.new.select.item",
+    "body": [
+      "\t\t${1:id}:",
+      "\t\t\tname: ${1:name}",
+      "\t\t\tlabel: ${3:label}",
+      "\t\t\ttype: select",
+      "\t\t\tdata-type: ${4:data-type}",
+      "\t\t\tdefault: ${5:default}",
+      "\t\t\tdescription: ${7:description}",
+      "\t\t\toptions:",
+      "\t\t\t\t- value1: value1",
+      "\t\t\t\t\tlabel1: label1",
+      "\t\t\t\t- value2: value2",
+      "\t\t\t\t\tlabel2: label2",
+      "$0"
+    ],
+    "description": "@themeSettingNewSelectItem",
+    "scope": "yaml"
+  }
 }

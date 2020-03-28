@@ -1,42 +1,42 @@
 {
     "$journalId": {
-		"prefix": "$journal.id",
+		"prefix": "$j.id",
 		"body": [
             "${journal.id?c}"
 		],
-		"description": "$journalId",
+		"description": "${journal.id?c}",
 		"scope": "text.html.ftl"
     },
     "$journalContent": {
-		"prefix": "$journal.content",
+		"prefix": "$j.content",
 		"body": [
             "${journal.content!}"
 		],
-		"description": "$journalContent",
+		"description": "${journal.content!}",
 		"scope": "text.html.ftl"
     },
     "$journalLikes": {
-		"prefix": "$journal.likes",
+		"prefix": "$j.likes",
 		"body": [
             "${journal.likes?c}"
 		],
-		"description": "$journalLikes",
+		"description": "${journal.likes?c}",
 		"scope": "text.html.ftl"
     },
     "$journalCreateTime": {
-		"prefix": "$journal.createTime",
+		"prefix": "$j.createTime",
 		"body": [
             "${journal.createTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$journalCreateTime",
+		"description": "${journal.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     },
     "$journalUpdateTime": {
-		"prefix": "$journal.updateTime",
+		"prefix": "$j.updateTime",
 		"body": [
             "${journal.updateTime?string('yyyy-MM-dd')}"
 		],
-		"description": "$journalUpdateTime",
+		"description": "${journal.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
     }
 }

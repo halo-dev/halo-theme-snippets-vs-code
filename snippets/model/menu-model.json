@@ -1,66 +1,66 @@
 {
     "$menuId": {
-		"prefix": "$menu.id",
+		"prefix": "$m.id",
 		"body": [
             "${menu.id?c}"
 		],
-		"description": "$menuId",
+		"description": "${menu.id?c}",
 		"scope": "text.html.ftl"
     },
     "$menuName": {
-		"prefix": "$menu.name",
+		"prefix": "$m.name",
 		"body": [
             "${menu.name!}"
 		],
-		"description": "$menuName",
+		"description": "${menu.name!}",
 		"scope": "text.html.ftl"
     },
     "$menuUrl": {
-		"prefix": "$menu.url",
+		"prefix": "$m.url",
 		"body": [
             "${menu.url!}"
 		],
-		"description": "$menuUrl",
+		"description": "${menu.url!}",
 		"scope": "text.html.ftl"
     },
     "$menuPriority": {
-		"prefix": "$menu.priority",
+		"prefix": "$m.priority",
 		"body": [
             "${menu.priority!}"
 		],
-		"description": "$menuPriority",
+		"description": "${menu.priority!}",
 		"scope": "text.html.ftl"
     },
     "$menuTarget": {
-		"prefix": "$menu.target",
+		"prefix": "$m.target",
 		"body": [
             "${menu.target!}"
 		],
-		"description": "$menuTarget",
+		"description": "${menu.target!}",
 		"scope": "text.html.ftl"
     },
     "$menuIcon": {
-		"prefix": "$menu.icon",
+		"prefix": "$m.icon",
 		"body": [
             "${menu.icon!}"
 		],
-		"description": "$menuIcon",
+		"description": "${menu.icon!}",
 		"scope": "text.html.ftl"
     },
     "$menuParentId": {
-		"prefix": "$menu.parentId",
+		"prefix": "$m.parentId",
 		"body": [
             "${menu.parentId!}"
 		],
-		"description": "$menuParentId",
+		"description": "${menu.parentId!}",
 		"scope": "text.html.ftl"
     },
     "$menuTeam": {
-		"prefix": "$menu.team",
+		"prefix": "$m.team",
 		"body": [
             "${menu.team!}"
 		],
-		"description": "$menuTeam",
+		"description": "${menu.team!}",
 		"scope": "text.html.ftl"
     }
 }
