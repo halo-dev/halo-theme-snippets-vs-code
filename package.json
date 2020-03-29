@@ -2,7 +2,7 @@
 	"name": "halo-theme-dev-snippets-for-vs-code",
 	"displayName": "Halo theme develop Snippets",
 	"description": "Halo theme develop Snippets for vs code.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "halo-dev",
 	"repository": {
         "type": "git",

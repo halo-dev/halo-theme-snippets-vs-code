@@ -1,6 +1,6 @@
 {
   "@themeConfigTemplate": {
-    "prefix": "!theme.template",
+    "prefix": "!th.template",
     "body": [
       "id: ${1:id}",
       "name: ${2:name}",

@@ -1,24 +1,24 @@
 {
-    "$categoryId": {
+	"$categoryId": {
 		"prefix": "$c.id",
 		"body": [
-            "${category.id?c}"
+			"${category.id?c}"
 		],
 		"description": "${category.id?c}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryName": {
+	},
+	"$categoryName": {
 		"prefix": "$c.name",
 		"body": [
-            "${category.name!}"
+			"${category.name!}"
 		],
 		"description": "${category.name!}",
 		"scope": "text.html.ftl"
-    },
-    "$categorySlug": {
+	},
+	"$categorySlug": {
 		"prefix": "$c.slug",
 		"body": [
-            "${category.slug!}"
+			"${category.slug!}"
 		],
 		"description": "${category.slug!}",
 		"scope": "text.html.ftl"
@@ -26,49 +26,49 @@
 	"$categoryFullPath": {
 		"prefix": "$c.fullPath",
 		"body": [
-            "${category.fullPath!}"
+			"${category.fullPath!}"
 		],
 		"description": "${category.fullPath!}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryDescription": {
+	},
+	"$categoryDescription": {
 		"prefix": "$c.description",
 		"body": [
-            "${category.description!}"
+			"${category.description!}"
 		],
 		"description": "${category.description!}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryThumbnail": {
+	},
+	"$categoryThumbnail": {
 		"prefix": "$c.thumbnail",
 		"body": [
-            "${category.thumbnail!}"
+			"${category.thumbnail!}"
 		],
 		"description": "${category.thumbnail!}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryParentId": {
+	},
+	"$categoryParentId": {
 		"prefix": "$c.parentId",
 		"body": [
-            "${category.parentId?c}"
+			"${category.parentId?c}"
 		],
 		"description": "${category.parentId?c}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryCreateTime": {
+	},
+	"$categoryCreateTime": {
 		"prefix": "$c.createTime",
 		"body": [
-            "${category.createTime?string('yyyy-MM-dd')}"
+			"${category.createTime?string('yyyy-MM-dd')}"
 		],
 		"description": "${category.createTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
-    },
-    "$categoryUpdateTime": {
+	},
+	"$categoryUpdateTime": {
 		"prefix": "$c.updateTime",
 		"body": [
-            "${category.updateTime?string('yyyy-MM-dd')}"
+			"${category.updateTime?string('yyyy-MM-dd')}"
 		],
 		"description": "${category.updateTime?string('yyyy-MM-dd')}",
 		"scope": "text.html.ftl"
-    }
+	}
 }

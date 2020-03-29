@@ -1,6 +1,6 @@
 {
   "@themeSettingNewGroup": {
-    "prefix": "!settings.new.group",
+    "prefix": "!set.new.group",
     "body": [
       "${1:id}:",
       "\tlabel: ${2:label}",
@@ -11,7 +11,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewTextItem": {
-    "prefix": "!settings.new.text.item",
+    "prefix": "!set.new.text.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",
@@ -26,7 +26,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewColorItem": {
-    "prefix": "!settings.new.color.item",
+    "prefix": "!set.new.color.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",
@@ -41,7 +41,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewAttachmentItem": {
-    "prefix": "!settings.new.attachment.item",
+    "prefix": "!set.new.attachment.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",
@@ -56,7 +56,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewTextareaItem": {
-    "prefix": "!settings.new.textarea.item",
+    "prefix": "!set.new.textarea.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",
@@ -71,7 +71,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewRadioItem": {
-    "prefix": "!settings.new.radio.item",
+    "prefix": "!set.new.radio.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",
@@ -91,7 +91,7 @@
     "scope": "yaml"
   },
   "@themeSettingNewSelectItem": {
-    "prefix": "!settings.new.select.item",
+    "prefix": "!set.new.select.item",
     "body": [
       "\t\t${1:id}:",
       "\t\t\tname: ${1:name}",

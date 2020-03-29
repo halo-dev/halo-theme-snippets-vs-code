@@ -19,7 +19,7 @@
 			"\t</#list>",
 			"</#list>"
 		],
-		"description": "@postPageLoop",
+		"description": "@postArchivesList",
 		"scope": "text.html.ftl"
 	},
 	"@postList": {
