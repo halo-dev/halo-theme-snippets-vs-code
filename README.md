@@ -1,4 +1,5 @@
 <h1 align="center"><a href="https://github.com/halo-dev" target="_blank">Halo theme develop Snippets</a></h1>
+
 > Halo theme develop Snippets 是 [Halo](https://github.com/halo-dev/halo) 在 VS Code 上开发的一款主题开发的代码片段插件。
 
 <p align="center">
